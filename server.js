@@ -1,4 +1,5 @@
 const express = require('express'); // importing a CommonJS module
+require('dotenv').config();
 const helmet = require('helmet');
 const hubsRouter = require('./hubs/hubs-router.js');
 const morgon = require('morgan');
